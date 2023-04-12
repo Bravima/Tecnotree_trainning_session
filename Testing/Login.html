@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\sadanbr\OneDrive - Tecnotree\Desktop\testing for loging page\style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h1>Login</h1>
+    <form method="post" action="C:\Users\sadanbr\OneDrive - Tecnotree\Desktop\testing for loging page\home.html">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" required minlength="4" maxlength="20" pattern="[a-zA-Z0-9]+">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required minlength="4" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[@#$]).{4,}" title="Password must contain at least one number, one lowercase letter, and one of the following special characters: @, #, $.">
+      <button type="submit" class="btn">Login</button>
+      <a href="C:\Users\sadanbr\OneDrive - Tecnotree\Desktop\testing for loging page\reset.html" class="forgot-link">Forgot Password?</a>
+    </form>
+  </div>
+</body>
+</html>
+
