@@ -1,0 +1,154 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #0d2c54;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Main styles */
+#hero {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#hero .button {
+  background-color: #fff;
+  color: #0d2c54;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#hero .button:hover {
+  background-color: #0d2c54;
+  color: #fff;
+}
+
+#policies {
+  margin: 4rem 0;
+}
+
+#policies h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#policies ul {
+  display: flex;
+  justify-content: center;
+}
+
+#policies li {
+  max-width: 300px;
+  padding: 2rem;
+  margin: 0 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#policies h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#policies p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#policies .button {
+  background-color: #0d2c54;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#policies .button:hover {
+  background-color: #fff;
+  color: #0d2c54;
+}
+
+#claims {
+  margin: 4rem 0;
+}
+
+#claims h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#claims p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#claims form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#claims label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#claims input,
+#claims textarea {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+#claims button {
+  background-color: #0d2c54;
+  color: #fff;
